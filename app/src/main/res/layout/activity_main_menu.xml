@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/btnOperaciones"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Operaciones básicas"
+        android:background="#47BC42"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAreas"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Calcular áreas"
+        android:background="#BDBC42"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOperaciones" />
+
+    <Button
+        android:id="@+id/btnPerimetro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Calcular perímetros"
+        android:background="#394587"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAreas" />
+
+    <Button
+        android:id="@+id/btnDatosPersonales"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Datos personales"
+        android:textColor="@color/white"
+        android:background="#7638E4"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPerimetro" />
+
+    <Button
+        android:id="@+id/btnAlmacenar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Almacenar datos"
+        android:background="#405CB1"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDatosPersonales" />
+
+    <Button
+        android:id="@+id/btnAgenda"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Agenda"
+        android:layout_marginTop="20dp"
+        android:background="#BB0DC1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlmacenar" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="Salir"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgenda" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
